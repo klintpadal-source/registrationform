@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> RESPONSIVE REGISTRATION FORM </title>
+        <meta name= "viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <style>
+            body{
+                background-image: url(huhu.jpg);
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+            }
+        </style>
+        <div class="container">
+            <h1 class="form-title">REGISTRATION</h1>
+            <form action="#">
+                <div class="main-user-info">
+                    <div class="user-input-box">
+                        <label for="Full name">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" placholder="Enter Full Name" />
+                    </div>
+
+                     <div class="user-input-box">
+                        <label for="username">Full UserName:</label>
+                        <input type="text" id="fullname" name="username" placholder="Enter UserName" />
+                    </div>
+
+                    <div class="user-input-box">
+                        <label for="email">Email Adress:</label>
+                        <input type="email" id="email" name="email" placholder="Enter Email Adress" />
+                    </div>
+
+                    <div class="user-input-box">
+                        <label for="phone number">Phone Number:</label>
+                        <input type="text" id="phone number" name="phone number" placholder="Phone Number" />
+                    </div>
+
+                     <div class="user-input-box">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="Password" placholder="Enter Password" />
+                    </div>
+
+                    <div class="user-input-box">
+                        <label for="Confirm Password">Confirm Password:</label>
+                        <input type="password" id="Confirm Password" name="Confirm Password" placholder="Confirm Password" />
+                    </div>
+                </div>
+                <div class="gender-details-box">
+                    <span class="gender-title"> Gender:</span>
+                    <div class="gender-category">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male"> Male </label>
+                         <input type="radio" name="gender" id="female">
+                        <label for="female"> Female </label>
+                         <input type="radio" name="gender" id="other">
+                        <label for="other"> Other </label>
+                    </div>
+                </div>
+                <div class="form-submit-btn">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+
